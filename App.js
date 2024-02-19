@@ -19,7 +19,13 @@ function App() {
           >
           Learning React
         </a>
+        <br/>
+        <imput type= "text" id="txtlogin"/>
+        <br/>
+        <imput type= "text" id="senha"/>
+        <br/>
         <button
+        
           onClick={exibirHorario}
         >
         ver Horario</button>
